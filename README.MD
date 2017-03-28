@@ -7,6 +7,7 @@ All rights reserved.
 Read the file 'license.txt' for more details.
 
 http://www.floppysoftware.es/tinydev/
+
 floppysoftware@gmail.com
 
 
@@ -30,14 +31,14 @@ The IDE
 The IDE (Integrated Development Environment) of TinyDev has been designed to seem and act like the ones that come with the professional programming languages. Supports the English and Spanish languages.
 
 It has the characteristic functions of this kind of environments, among them:
-•Create, open, save and print source code files.
-•Edit source code of programs.
-•Run and stop the current program.
-•Configure the IDE.
-•Show help about the IDE and the programming language.
-•Fast access buttons to the most frequent actions.
-•Fast selection panel with all the keywords of the language.
-•Information panel about the current source code.
+-Create, open, save and print source code files.
+-Edit source code of programs.
+-Run and stop the current program.
+-Configure the IDE.
+-Show help about the IDE and the programming language.
+-Fast access buttons to the most frequent actions.
+-Fast selection panel with all the keywords of the language.
+-Information panel about the current source code.
 
 
 Examples
@@ -46,17 +47,17 @@ Examples
 With the aim to help our little kids to learn this programming language, it has been developed some example programs, which show the capabilities of TinyDev.
 
 Some of them are:
-•Chase - a game in which two robots want to catch you.
-•Space - the classic game of space ships and asteroids.
-•Memory - a game with coloured tokens, to exercise our memory.
-•Simulation of an aquarium.
-•The classic game of tic-tac-toe.
-•Drawings - truck, building, screen effects...
+-Chase - a game in which two robots want to catch you.
+-Space - the classic game of space ships and asteroids.
+-Memory - a game with coloured tokens, to exercise our memory.
+-Simulation of an aquarium.
+-The classic game of tic-tac-toe.
+-Drawings - truck, building, screen effects...
 
 
 Requirements
 ------------
 
 The requirements to install and run TinyDev are the following:
-•Computer with Java 1.8 or higher.
-•Want to learn and have fun.
+-Computer with Java 1.8 or higher.
+-Want to learn and have fun.
