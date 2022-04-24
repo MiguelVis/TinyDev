@@ -1,0 +1,67 @@
+div.menu_title {
+	color: brown;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px gray;
+}
+
+h4.section_title {
+	color: brown;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px gray;
+}
+
+p.news_title  {
+	font-weight: bold;
+}
+
+p span.news_date {
+	float: right;
+}
+
+p.snippets_title  {
+	font-weight: bold;
+}
+
+p span.snippets_button {
+	float: right;
+}
+
+a.icon:link, a.icon:visited, a.icon:hover, a.icon:active {
+    text-decoration: none;
+}
+
+fa.clickable {
+	cursor: pointer;
+}
+
+img.screenshot {
+	display: block;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	box-shadow: 4px 4px 8px grey;
+}
+
+div.snippet {
+	padding-left: 1em;
+	padding-right: 1em;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+	margin-bottom: 1em;
+	background-color: #FAF0E6;
+}
+
+img.snippet {
+	display: block;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 16px;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<title>TinyDev - Programming for kids</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="tinydev.css">
+<!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+	<script src="tinydev.js"></script>
+	<script>td_setup();</script>
+
+<!-- Top container -->
+<div class="w3-container w3-top w3-black w3-large w3-padding" style="z-index:4">
+  <button class="w3-button w3-hide-large w3-padding-0 w3-black w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
+	<i class="fa fa-bars"></i> &nbsp;
+  </button>
+  TinyDev
+  <span class="w3-right">
+	<a class="icon" href="index.html?lang=es"><img src="flag_es.png" alt="Español"></a>
+	<a class="icon" href="index.html?lang=en"><img src="flag_en.png" alt="Inglés"></a>
+  </span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row menu_title">
+	TinyDev -
+	<script>td_translate("title_programming_for_kids");</script>
+  </div>
+  <hr>
+  <div class="w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close(); return false" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp; <script>td_translate("close_menu");</script></a>
+	<a href="#section_news" class="w3-bar-item w3-button w3-padding w3-blue" onclick="td_select(this)" id="menu_news"><i class="fa fa-bell fa-fw"></i>&nbsp; <script>td_translate("title_news");</script></a>
+	<a href="#section_overview" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_overview"><i class="fa fa-info-circle fa-fw"></i>&nbsp; <script>td_translate("title_overview");</script></a>
+    <a href="#section_ide" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_ide"><i class="fa fa-window-maximize fa-fw"></i>&nbsp; <script>td_translate("title_the_ide");</script></a>
+    <a href="#section_examples" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_examples"><i class="fa fa-file-code-o fa-fw"></i>&nbsp; <script>td_translate("title_examples");</script></a>
+	<a href="#section_snippets" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_snippets"><i class="fa fa-wrench fa-fw"></i>&nbsp; <script>td_translate("title_snippets");</script></a>
+    <a href="#section_requirements" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_requirements"><i class="fa fa-plug fa-fw"></i>&nbsp; <script>td_translate("title_requirements");</script></a>
+    <a href="#section_downloads" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_downloads"><i class="fa fa-download fa-fw"></i>&nbsp; <script>td_translate("title_downloads");</script></a>
+	<a href="#section_contact" class="w3-bar-item w3-button w3-padding" onclick="td_select(this)" id="menu_contact"><i class="fa fa-envelope fa-fw"></i>&nbsp; <script>td_translate("title_contact");</script></a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+  
+  <hr id="section_news"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_news");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p class="news_title"><script>td_translate("news_4_title");</script><span class="news_date w3-opacity w3-medium"><script>td_translate("news_4_date");</script></span></p>
+	  <hr>
+	  <p><script>td_translate("news_4_text");</script></p>
+	  <img class="screenshot" src="web_lights_out.png" alt="Lights Out!">
+	  <br>
+	</div>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p class="news_title"><script>td_translate("news_3_title");</script><span class="news_date w3-opacity w3-medium"><script>td_translate("news_3_date");</script></span></p>
+	  <hr>
+	  <p><script>td_translate("news_3_text");</script></p>
+	</div>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p class="news_title"><script>td_translate("news_2_title");</script><span class="news_date w3-opacity w3-medium"><script>td_translate("news_2_date");</script></span></p>
+	  <hr>
+	  <p><script>td_translate("news_2_text");</script></p>
+	</div>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p class="news_title"><script>td_translate("news_1_title");</script><span class="news_date w3-opacity w3-medium"><script>td_translate("news_1_date");</script></span></p>
+	  <hr>
+	  <p><script>td_translate("news_1_text");</script></p>
+	</div>
+	
+  </div>
+  
+  <hr id="section_overview"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_overview");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p><script>td_translate("over_1");</script></p>
+	  <p><script>td_translate("over_2");</script></p>
+	  <p><script>td_translate("over_3");</script></p>
+	  <p><script>td_translate("over_4");</script></p>
+	  <p><script>td_translate("over_5");</script></p>
+	</div>
+
+  </div>
+  
+  <hr id="section_ide"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_the_ide");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p><script>td_translate("ide_intro");</script></p>
+	    
+	  <p><script>td_translate("ide_1");</script></p>
+	  <ul>
+	    <li><script>td_translate("ide_2");</script></li>
+		<li><script>td_translate("ide_3");</script></li>
+		<li><script>td_translate("ide_4");</script></li>
+		<li><script>td_translate("ide_5");</script></li>
+		<li><script>td_translate("ide_6");</script></li>
+		<li><script>td_translate("ide_7");</script></li>
+		<li><script>td_translate("ide_8");</script></li>
+		<li><script>td_translate("ide_9");</script></li> 
+	  </ul>
+	  
+	  <img class="screenshot" src="" id="img_ide" alt="IDE">
+	  
+	  <script>
+	    document.getElementById("img_ide").src = (td_language == 'es' ? "web_ide_es.png" : "web_ide.png");
+	  </script>
+	  
+	  <br>
+
+	</div>
+
+  </div>
+  
+  <hr id="section_snippets"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_snippets");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p class="snippets_title"><script>td_translate("snip_1_title");</script><span class="snippets_button"><a href="#" onclick="return false;"><i class="fa fa-chevron-down fa-fw" onclick="td_toggle_snippet('snip_1_code', this);"></i></a></span></p>
+	  <div id="snip_1_code" style="display:none">
+	    <div class="snippet">
+		  <code>
+			<pre>
+' --------------------------------------------------
+' Print text with shadow | Imprimir texto con sombra
+' --------------------------------------------------
+
+variable string text = "Hello World!"   ' Text to print | Texto a imprimir
+
+screen 600, 400                         ' Setup screen  | Inicializar pantalla
+font 64, bold, transparent              ' Setup font    | Inicializar fuente
+
+cursor to 2, 2                          ' Print shadow  | Imprimir sombra
+pen "black"
+print text
+
+cursor to 0, 0                          ' Print text    | Imprimir texto
+pen "blue"
+print text
+			</pre>
+		  </code>
+		</div>
+		<img class="snippet" src="snip_1.png">
+		<br>
+	  </div>
+	</div>
+
+  </div>
+  
+  <hr id="section_examples"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_examples");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p><script>td_translate("ex_intro");</script></p>
+	  <ul>
+		<li><script>td_translate("ex_1");</script></li>
+		<li><script>td_translate("ex_2");</script></li>
+		<li><script>td_translate("ex_3");</script></li>
+		<li><script>td_translate("ex_4");</script></li>
+		<li><script>td_translate("ex_5");</script></li>
+		<li><script>td_translate("ex_6");</script></li>
+		<li><script>td_translate("ex_7");</script></li>
+	  </ul>
+	  
+	  <img class="screenshot" src="web_tic_tac_toe.png" alt="Tic Tac Toe">
+	
+	  <br>
+	
+	</div>
+	
+  </div>
+  
+  <hr id="section_requirements"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_requirements");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p><script>td_translate("req_intro");</script></p>
+	  <ul>
+		<li><script>td_translate("req_1");</script></li>
+		<li><script>td_translate("req_2");</script></li>
+	  </ul>
+	</div>
+
+  </div>
+
+  <hr id="section_downloads"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_downloads");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p><script>td_translate("down_intro");</script></p>
+	  <ul>
+		<li><a href="tinydev_1_00.zip">TinyDev v1.00 - 18 Mar 2017</a></li>
+	  </ul>
+	  <p><script>td_translate("down_github");</script></p>
+	</div>
+
+  </div>
+  
+  <hr id="section_contact"><br>
+  
+  <div class="w3-container">
+    <h4 class="section_title"><strong><script>td_translate("title_contact");</script></strong></h4>
+	
+	<div class="w3-panel w3-card-4 w3-white"> 
+	  <p>Email: <a href="mailto:floppysoftware@gmail.com">floppysoftware@gmail.com</a>.</p>
+	</div>
+
+  </div>
+  
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-16 w3-light-grey">
+    <p>
+		&copy; 2017 - 2022 Miguel I. Garc&iacute;a L&oacute;pez (FloppySoftware).
+		<script>td_translate("all_rights_reserved");</script>
+	</p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
