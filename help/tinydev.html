@@ -1,0 +1,2455 @@
+<!DOCTYPE html>
+<!-- ===========================================
+     TinyDev - Programming for kids
+	 ===========================================
+     (c) 2015 - 2022 Miguel I. Garcia Lopez
+	     FloppySoftware
+		 Spain
+		 
+		 All rights reserved.
+		 
+		 www.floppysoftware.es
+		 floppysoftware@gmail.com
+     =========================================== -->
+
+<html>
+	<head>
+		<title>
+			TinyDev
+		</title>
+		<meta name="author" content="Miguel I. Garc&iacute;a L&oacute;pez">
+		<meta name="description" content="">
+		<meta name="keywords" content="TinyDev">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="tinydev.css">
+	</head>
+	
+	<body>
+
+		<h1>
+			TinyDev - Help Contents
+		</h1>
+		
+		<p>
+			TinyDev v1.01 - 24 Apr 2022
+			<br>
+			<br>
+			&copy; 2017 - 2022 Miguel I. Garc&iacute;a L&oacute;pez (FloppySoftware)
+			<br>
+			<br>
+			All rights reserved.
+		</p>
+		
+		<a href="http://www.floppysoftware.es" target="_blank">www.floppysoftware.es</a>
+		<br>
+		<a href="mailto:floppysoftware@gmail.com">floppysoftware@gmail.com</a>
+		<br>
+		<br>
+		
+		<hr>
+		
+		<h2>TinyDev</h2>
+		<p class="indent">
+			<a href="#KmIntro">Introduction</a><br>
+		</p>
+		
+		<h2>The TinyDev IDE</h2>
+		<p class="indent">
+			<a href="#EdtIntro">Introduction</a><br>
+			<a href="#EdtFile">The File menu</a><br>
+			<a href="#EdtEdit">The Edit menu</a><br>
+			<a href="#EdtExecute">The Run menu</a><br>
+			<a href="#EdtOptions">The Options menu</a><br>
+			<a href="#EdtHelp">The Help menu</a><br>
+			<a href="#EdtEditZone">The edition zone</a><br>
+			<a href="#EdtButtons">The buttons of fast access</a><br>
+			<a href="#EdtLangZone">The language zone</a><br>
+			<a href="#EdtInfoZone">The information zone</a><br>
+		</p>
+		
+		<h2>The language of TinyDev</h2>
+		<p class="indent">
+			<a href="#DfnIntro">Introduction</a><br>
+			<a href="#DfnInstruction">Instructions</a><br>
+			<a href="#DfnFunction">Functions</a><br>
+			<a href="#DfnComment">Comments</a><br>
+			<a href="#DfnIdentifier">Identifiers</a><br>
+			<a href="#DfnExpression">Expressions</a><br>
+			<a href="#DfnNumber">Numbers</a><br>
+			<a href="#DfnString">Text strings</a><br>
+			<a href="#DfnImage">Images</a><br>
+			<a href="#DfnSound">Sounds</a><br>
+			<a href="#DfnColor">Colors</a><br>
+			<a href="#DfnPlace">Places</a><br>
+			<a href="#DfnVariable">Variables</a><br>
+			<a href="#DfnArray">Arrays</a><br>
+			<a href="#DfnOperator">Operators</a><br>
+			<a href="#DfnFlowControl">Flow control of execution</a><br>
+			<a href="#DfnSubroutine">Subroutines</a><br>
+			
+			
+			<a href="#KeywordsAlphabetical">Reserved words in alphabetical order</a><br>
+			<a href="#KeywordsFunctional">Reserved words according to its function</a><br>
+		</p>
+		
+		<!- ========================================= >
+		<!-             INTRODUCTION                  >
+		<!- ========================================= >
+		
+		<div id="KmIntro">
+			<hr>
+			<h2>TinyDev</h2>
+			<h3>Introducci&oacute;n</h3>
+			<p>
+				TinyDev es un lenguaje de programaci&oacute;n para niños, creado con el objetivo
+				de enseñarles a pensar en la resoluci&oacute;n de problemas.
+			</p>
+			<p>
+				Aunque es un lenguaje muy completo, ha sido diseñado para que sea sencillo
+				de utilizar, huyendo de las complicaciones y dificultades de ciertos lenguajes
+				de programaci&oacute;n para niños, muy en boga actualmente.
+			</p>
+			<p>
+				Mediante TinyDev, los niños pueden dibujar gr&aacute;ficos, escribir texto,
+				mover im&aacute;genes por la pantalla,
+				emitir sonidos, e interactuar con el usuario mediante el teclado y el rat&oacute;n.
+			</p>
+			<p>
+				Adem&aacute;s, se acompaña de un pequeño IDE (Integrated Development Environment, Entorno
+				de Desarrollo Integrado), mediante el cual los niños pueden crear, editar y ejecutar
+				sus programas, tal y como ocurre con los lenguajes de programaci&oacute;n
+				profesionales.
+			</p>
+		</div>
+		
+		<!- ========================================= >
+		<!-                 THE IDE                   >
+		<!- ========================================= >
+		
+		<div id="EdtIntro">
+			<hr>
+			<h2>El IDE de TinyDev</h2>
+			<h3>Introducci&oacute;n</h3>
+			<p>
+				El IDE (Integrated Development Environment, Entorno de Desarrollo Integrado) de TinyDev
+				ha sido diseñado para parecerse y actuar como los que acompañan a los lenguajes de
+				programaci&oacute;n profesionales, aunque teniendo en cuenta el tipo de usuarios al
+				que va destinado.
+			</p>
+			<img class="screenshot" src="help_ide.png" alt="IDE de TinyDev">
+			<p>
+				Tiene las funciones caracter&iacute;sticas de este tipo de entornos, entre ellas:
+				<ul>
+					<li>Apertura, guardado e impresi&oacute;n de archivos.</li>
+					<li>Edici&oacute;n del c&oacute;digo fuente del programa.</li>
+					<li>Ejecuci&oacute;n y detenci&oacute;n del programa.</li>
+					<li>Configuraci&oacute;n del IDE.</li>
+					<li>Ayuda sobre el IDE y el lenguaje de programaci&oacute;n.</li>
+					<li>Botones de acceso r&aacute;pido a las funciones m&aacute;s frecuentes.</li>
+					<li>Panel de selecci&oacute;n r&aacute;pida con todas las palabras clave del lenguaje.</li>
+					<li>Panel de informaci&oacute;n sobre el c&oacute;digo que se est&aacute; editando.</li>					
+				</ul>
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtFile">
+			<hr>
+			<h3>El men&uacute; Archivo</h3>
+			<p>
+				Mediante las opciones de este men&uacute;, podemos realizar las operaciones
+				frecuentes con archivos que contengan c&oacute;digo fuente para el lenguaje TinyDev:
+				<em>Nuevo</em>, <em>Abrir</em>, <em>Guardar</em>,
+				<em>Guardar como</em> e <em>Imprimir</em>.
+			</p>
+			<p>
+				Tambi&eacute;n est&aacute; disponible la opci&oacute;n Salir, para abandonar
+				el IDE.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtEditar">
+			<hr>
+			<h3>El men&uacute; Editar</h3>
+			<p>
+				En este men&uacute;, se encuentran las opciones habituales de edici&oacute;n de
+				texto: <em>Cortar</em>, <em>Copiar</em>, <em>Pegar</em>,
+				<em>Eliminar</em> y <em>Seleccionar todo</em>.
+				Estas funciones tambi&eacute;n
+				est&aacute;n disponibles si se pulsa el bot&oacute;n derecho del rato&oacute;n,
+				dentro del &aacute;rea de edici&oacute;n de texto.
+			</p>
+			<p>
+				Tambi&eacute;n incluye las opciones de b&uacute;squeda de texto.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtExecute">
+			<hr>
+			<h3>El men&uacute; Ejecutar</h3>
+			<p>
+				Mediante las opciones de este men&uacute;, podemos controlar la ejecuci&oacute;n
+				del programa cargado en el IDE: <em>Ejecutar</em> y <em>Detener</em>.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtOptions">
+			<hr>
+			<h3>El men&uacute; Opciones</h3>
+			<p>
+				En este men&uacute;, se encuentran las opciones de configuraci&oacute;n del
+				IDE: <em>Mostrar consejo al iniciar</em>
+				y <em>Utilizar la plantilla para nuevos archivos</em>.
+			</p>
+			<p>
+				La plantilla para nuevos archivos, se llama <em>TinyDev_es_ES.km</em>,
+				y puede ser personalizada, a gusto del usuario.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtHelp">
+			<hr>
+			<h3>El men&uacute; Ayuda</h3>
+			<p>
+				Mediante las opciones de este men&uacute;, podemos acceder a la ayuda
+				e informaci&oacute;n de TinyDev: <em>Ver la ayuda</em> y
+				<em>Acerca de TinyDev</em>.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtEditZone">
+			<hr>
+			<h3>El &aacute;rea de edici&oacute;n</h3>
+			<p>
+				En el &aacute;rea de edici&oacute;n, es donde podemos escribir las l&iacute;neas
+				que componen los programas.
+			</p>
+			<p>
+				Pulsando el bot&oacute;n derecho del rato&oacute;n,	dentro del &aacute;rea,
+				aparecer&aacute; un men&uacute; con algunas opciones de edici&oacute;n de
+				texto: <em>Cortar</em>, <em>Copiar</em>, <em>Pegar</em>,
+				<em>Eliminar</em> y <em>Seleccionar todo</em>.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtButtons">
+			<hr>
+			<h3>Los botones de acceso r&aacute;pido</h3>
+			<p>
+				La barra de botones, permite el acceso r&aacute;pido a las funciones m&aacute;s
+				habituales del IDE.
+			</p>
+			<p>
+				Si se deja el cursor del rat&oacute;n sobre un bot&oacute;n, aparecer&aacute;
+				un pequeño texto explicativo sobre la funci&oacute;n que realiza.
+			</p>
+			
+			<img class="screenshot" src="help_buttons.png" alt="Barra de botones de acceso r&aacute;pido">
+			
+			<p>
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtLangZone">
+			<hr>
+			<h3>El &aacute;rea del lenguaje</h3>
+			
+			<p>
+				En este panel, podemos encontrar todas las palabras clave del lenguaje de
+				programaci&oacute;n de TinyDev.
+			</p>
+			<p>
+				Para introducir una palabra clave en el texto utilizando este panel, basta
+				con pulsar el bot&oacute;n izquierdo del rat&oacute;n, con el cursor
+				encima de ella.
+			</p>
+		
+			<img class="screenshot" src="help_language_panel.png" alt="Panel del lenguaje">
+			
+			<p>
+			</p>
+			
+			<div style="clear: both"></div>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="EdtInfoZone">
+			<hr>
+			<h3>El &aacute;rea de informaci&oacute;n</h3>
+			<p>
+				En este panel, aparece informaci&oacute;n acerca del texto que
+				estamos editando, el n&uacute;mero de l&iacute;nea actual, mensajes
+				explicativos, etc.
+			</p>
+			
+			<img class="screenshot" src="help_status.png" alt="Area de informaci&oacute;n">
+			
+			<p>
+			</p>
+		</div>
+
+		<!- ========================================= >
+		<!-             THE LANGUAGE                  >
+		<!- ========================================= >
+		
+		<div id="DfnIntro">
+			<hr>
+			<h2>El lenguaje de TinyDev</h2>
+			<h3>Introducci&oacute;n</h3>
+			<p>
+				En TinyDev, cada l&iacute;nea de texto, es una <a href="#DfnInstruction">instrucci&oacute;n</a>,
+				un <a href="#DfnPlace">place</a>, un <a href="#DfnComment">comentario</a>, o una l&iacute;ne en blanco.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnInstruction">
+			<hr>
+			<h3>Instrucciones</h3>
+			<p>
+				Una instrucci&oacute;n, est&aacute; compuesta por su nombre y, en la mayor&iacute;a de los casos, unas
+				opciones, separadas entre s&iacute;, por uno o m&aacute;s espacios en blanco, y unos
+				par&aacute;metros, separados entre s&iacute;, por una coma, que puede estar seguida
+				de uno o m&aacute;s espacios en blanco:
+			</p>
+			<kbd>
+				<pre>
+	Set tablero[casilla] = 2
+	Screen 400, 200
+				</pre>
+			</kbd>
+			<p>
+				Los par&aacute;metros, suelen ser <a href="#DfnExpression">expresiones</a>, de texto, num&eacute;ricas...
+			</p>
+			<kbd>
+				<pre>
+	Set total = cantidad * 10 + beneficio
+	Screen tablero_ancho * pieza_lado, tablero_alto * pieza_lado
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnFunction">
+			<hr>
+			<h3>Funciones</h3>
+			<p>
+				Una funci&oacute;n, se diferencia de una <a href="#DfnInstruction">instrucci&oacute;n</a>, en que ha de emplearse obligatoriamente
+				como par&aacute;metro, o en la construcci&oacute;n de <a href="#DfnExpression">expresiones</a>. Sus par&aacute;metros,
+				son indicados entre par&eacute;ntesis, separados entre s&iacute; por una coma, que puede estar seguida
+				de uno o m&aacute;s espacios en blanco:
+			</p>
+			<kbd>
+				<pre>
+	Print Center "¡Has ganado " + string(cuantos) + " puntos!"
+	Variable String segundoNombre = Middle(nombre, 5, 6)
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnComment">
+			<hr>
+			<h3>Comentarios</h3>
+			<p>
+				Los comentarios, son muy &uacute;tiles para explicar qu&eacute; hace un
+				determinado fragmento de c&oacute;digo del programa.
+			</p>
+			<p>
+				Se escriben anteponi&eacute;ndoles el caracter ap&oacute;strofe <em>'</em>.
+			</p>
+			<p>
+				Todo lo que haya a continuaci&oacute;n del ap&oacute;strofe en la l&iacute;nea, será ignorado.
+			</p>
+			<p>
+				De esta forma, podemos escribir comentarios que ocupen toda la l&iacute;nea:
+			</p>
+			<kbd>
+				<pre>
+	' Esto es un comentario
+				</pre>
+			</kbd>
+			<p>
+				o al final de la misma:
+			</p>
+			<kbd>
+				<pre>
+	Call Title ' Esto es un comentario
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnIdentifier">
+			<hr>
+			<h3>Identificadores</h3>
+			<p>
+				Los identificadores se utilizan para dar nombre a las <a href="#DfnVariable">variables</a> y
+				los <a href="#DfnPlace">places</a>.
+			</p>
+			<p>
+				Un identificador, debe empezar por una letra, seguida opcionalmente de
+				cualquier combinación de letras, números y el caracter de subrayado <em>_</em>.
+			</p>
+			<p>
+				No se distinguen entre may&uacute;sculas y min&uacute;sculas, por lo que
+				los identificadores <em>nombreCompleto</em> y <em>nombrecompleto</em>, referencian
+				al mismo identificador.
+			</p>
+			<p>
+				Algunos identificadores v&aacute;lidos son: myName, year1969, house_color.
+			</p>
+			<p>
+				Estos identificadores no son v&aacute;lidos: 45 (no empieza con una letra),
+				$name (no empieza con una letra), my/home (el car&aacute;cter <em>/</em> no es v&aacute;lido),
+				6years (no empieza con una letra).
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnExpression">
+			<hr>
+			<h3>Expresiones</h3>
+			<p>
+				Una <em>expresi&oacute;n</em>, es una operaci&oacute;n que devuelve un resultado de un
+				tipo determinado:
+			</p>
+			<ul>
+				<li>Num&eacute;rico: precio * descuento / 100</li>
+				<li>Textual: "¡Hola " + nombre + "!"</li>
+			</ul>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnNumber">
+			<hr>
+			<h3>N&uacute;meros</h3>
+			<p>
+				Un n&uacute;mero puede ser negativo: <em>-56</em>, o positivo: <em>25</em>, pero no est&aacute;n
+				permitidos los decimales.
+			</p>
+			<p>
+				Una <em>expresi&oacute;n num&eacute;rica</em>, es una expresi&oacute;n cuyo resultado
+				es un valor num&eacute;rico. Ejemplos:
+			</p>
+			<kbd>
+				<pre>
+	50
+	precio * 10
+	(5 + lado) * 6
+	total - descuento
+				</pre>
+			</kbd>
+			<p>
+				Para crear una variable que contenga un n&uacute;mero, se ha de utilizar
+				la palabra reservada <a href="#KwVariable">Variable</a>.
+			</p>
+			<p>
+				Se puede alterar el valor de una variable num&eacute;rica con <a href="#KwSet">Set</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number precio = 50
+	Variable Number total
+	Set total = precio * 3
+	Print "El total es: " + String(total) + " euros"
+				</pre>
+			</kbd>
+			<p>
+				En este caso, la salida ser&iacute;a:
+			</p>
+			<kbd>
+				<pre>
+	El total es: 150 euros
+				</pre>
+			</kbd>
+			<p>
+				Se puede convertir un valor num&eacute;rico en su equivalente textual,
+				con <a href="#KwString">String</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number edad = 5
+	Variable String texto
+	Set texto = String(edad)
+				</pre>
+			</kbd>
+		</div>
+			
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnString">
+			<hr>
+			<h3>Cadenas de texto</h3>
+			<p>
+				Una cadena de texto, ha de estar entrecomillada: <em>"Esto es una cadena"</em>.
+			</p>
+			<p>
+				Una <em>expresi&oacute;n de texto</em>, es una expresi&oacute;n cuyo resultado
+				es un valor de texto. Ejemplos:
+			</p>
+			<kbd>
+				<pre>
+	"Hola"
+	"Hola " + nombre
+	"El apellido de " + nombre + " es " + apellido
+				</pre>
+			</kbd>
+			<p>
+				Para crear una variable que contenga un valor textual, se ha de utilizar
+				la palabra reservada <a href="#KwVariable">Variable</a>.
+			</p>
+			<p>
+				Se puede alterar el valor de una variable de tipo texto, con <a href="#KwSet">Set</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Juan"
+	Set nombre = nombre + " Serrano"
+	Print nombre
+				</pre>
+			</kbd>
+			<p>
+				En este caso, la salida ser&iacute;a:
+			</p>
+			<kbd>
+				<pre>
+	Juan Serrano
+				</pre>
+			</kbd>
+			<p>
+				Se puede convertir un valor textual, en su equivalente num&eacute;rico,
+				con <a href="#KwNumber">Number</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number edad
+	Dialog Input "Introduce tu edad"
+	Set edad = Number(Reply())
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnImage">
+			<hr>
+			<h3>Im&aacute;genes</h3>
+			<p>
+				Los tipos de ficheros admitidos para las im&aacute;genes, son los que mismos que admite
+				el lenguaje Java: <em>bmp</em>, <em>jpg</em>, <em>png</em>, etc.
+			</p>
+			<p>
+				Una <em>expresi&oacute;n de tipo imagen</em>, es una expresi&oacute;n cuyo resultado
+				es un valor textual, o bien una referencia a una variable de tipo imagen. Ejemplos:
+			</p>
+			<kbd>
+				<pre>
+	Variable String tipoImagen = ".png"
+	Variable Image fotoUno = "foto1" + tipoImagen
+	Variable Image mismaFoto = fotoUno
+				</pre>
+			</kbd>
+			<p>
+				Para crear una variable de este tipo, has de utilizar la palabra
+				reservada <a href="#KwVariable">Variable</a>.
+			</p>
+			<p>
+				Se puede alterar el valor de una variable de este tipo, con <a href="#KwSet">Set</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Image icono
+	Set icono = "flor.png"
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnSound">
+			<hr>
+			<h3>Sonidos</h3>
+			<p>
+				El tipo de fichero admitido para los sonidos, es <em>wav</em>.
+			</p>
+			<p>
+				Una <em>expresi&oacute;n de tipo sonido</em>, es una expresi&oacute;n cuyo resultado
+				es un valor textual, o bien una referencia a una variable de tipo sonido. Ejemplos:
+			</p>
+			<kbd>
+				<pre>
+	Variable String tipoSonido = ".wav"
+	Variable Sound efectoSonido = "crash" + tipoSonido
+	Variable Sound mismoSonido = efectoSonido
+				</pre>
+			</kbd>
+			<p>
+				Para crear una variable de este tipo, has de utilizar la palabra
+				reservada <a href="#KwVariable">Variable</a>.
+			</p>
+			<p>
+				Se puede alterar el valor de una variable de este tipo, con <a href="#KwSet">Set</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Sonido efectoSonido
+	Set efectoSonido = "crash.wav"
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnColor">
+			<hr>
+			<h3>Colores</h3>
+			<p>
+				Los colores se indican mediante expresiones textuales:
+				black, blue, cyan, light_gray, gray, dark_gray, magenta,
+				orange, pink, red, white, yellow y green.
+			</p>
+			<p>
+				Ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	Pen "black"
+	Paper "red"
+	Print "Texto de color negro, sobre fondo de color rojo."
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnPlace">
+			<hr>
+			<h3>Places</h3>
+			<p>
+				Los <em>places</em>, son posiciones o lugares en el c&oacute;digo del programa,
+				señalados mediante un <a href="#DfnIdentifier">identificador</a>,
+				y el caracter de dos puntos:
+			</p>
+			<p>
+				Ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	CentraTexto:
+				</pre>
+			</kbd>
+			<p>
+				Son utilizados para cambiar el <a href="#DfnFlowControl">flujo de ejecuci&oacute;n</a>
+				del programa, mediante la utilizaci&oacute;n de las instrucciones <a href="#DfnCall">Call</a>
+				y <a href="#DfnJump">Jump</a>.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnVariable">
+			<hr>
+			<h3>Variables</h3>
+			<p>
+				Hay disponibles 4 tipos de variables:
+			</p>
+			<table>
+				<caption>Tipos de variables</caption>
+				<tr>
+					<th>Tipo</th>
+					<th>Valor</th>
+				</tr>
+				<tr>
+					<td>Number</td>
+					<td><a href="#DfnNumber">N&uacute;meros</a></td>
+				</tr>
+				<tr>
+					<td>String</td>
+					<td><a href="#DfnString">Cadenas de texto</a></td>
+				</tr>
+				<tr>
+					<td>Image</td>
+					<td><a href="#DfnImagen">Im&aacute;genes</a></td>
+				</tr>
+				<tr>
+					<td>Sound</td>
+					<td><a href="#DfnSound">Sonidos</a></td>
+				</tr>
+			</table>
+			<p>
+				Las variables, se crean con la instrucci&oacute;n <a href="#KwVariable">Variable</a>, y
+				su valor se modifica con <a href="#KwSet">Set</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombreCompleto = nombre + apellidos
+	Variable Image icono = "flor.png"
+	Variable Number precio
+	Variable Sound sonidoClick = "click.wav"
+	Set precio = 5
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		
+		<div id="DfnArray">
+			<hr>
+			<h3>Arrays</h3>
+			<p>
+				Los <em>arrays</em>, son grupos de datos del mismo tipo.
+			</p>
+			<p>
+				Se crean con <a href="#KwVariable">Variable</a>, y su valor se modifica con <a href="#KwSet">Set</a>.
+			</p>
+			<p>
+				La cantidad de datos (o tamaño) del <em>array</em>, es fijo, por lo que una vez creado, no se puede cambiar.
+			</p>
+			<p>
+				Para referirse a cada elemento del <em>array</em>, se indica su nº de &iacute;ndice, que va
+				de 0, a tamaño - 1.
+			</p>
+			<p>
+				Por ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	' Crea un array de 10 n&uacute;meros:
+	'
+	Variable Number precio[10]
+	'
+	' Asigna un valor al 1er elemento,
+	' y al &uacute;ltimo:
+	'
+	Set precio[0] = 10
+	Set precio[9] = 50
+	'
+	' Suma los 2 valores y los presenta
+	' en pantalla:
+	'
+	print "Suma: " + String(precio[0] + precio[9])
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+
+		<div id="DfnOperator">
+			<hr>
+			<h3>Operadores</h3>
+			<p>
+				Hay varios tipos de operadores, con distinto nivel de precedencia, que se pueden usar en las expresiones:
+			</p>
+			<table>
+				<caption>Operadores, ordenados seg&uacute;n nivel de precedencia</caption>
+				<tr>
+					<th>Nivel</th>
+					<th>Operadores</th>
+					<th>Orden de evaluaci&oacute;n</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>[] Acceso a elemento de un array <br>() Paréntesis</td>
+					<td>De izquierda a derecha</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>* Multiplicaci&oacute;n <br> / Divisi&oacute;n <br> % M&oacute;dulo</td>
+					<td>De izquierda a derecha</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>+ Suma o concatenaci&oacute;n <br> - Resta</td>
+					<td>De izquierda a derecha</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>== Igual <br> != Distinto <br> &gt;&nbsp; Mayor que <br> &gt;= Mayor o igual que <br> &lt;&nbsp; Menor que <br> &lt;= Menor o igual que</td>
+					<td>De izquierda a derecha</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>&& Y l&oacute;gico<br> || O l&oacute;gico</td>
+					<td>De izquierda a derecha</td>
+				</tr>
+			</table>
+			<p>
+				Para acceder a un elemento de un array, se utilizan los corchetes:
+			</p>
+			<kbd>
+				<pre>
+	Variable Image iconos[5]        ' Crear un array de 5 im&aacute;genes (&iacute;ndices del 0 al 4)
+	Set iconos[0] = "abrir.png"  ' Asignamos una imagen al 1er elemento
+				</pre>
+			</kbd>
+			<p>
+				Los par&eacute;ntesis, son utilizados para cambiar el orden de evaluaci&oacute;n en las expresiones,
+				o hacerlas m&aacute;s legibles:
+			</p>
+			<kbd>
+				<pre>
+	Set importe = (precio + recargo) * unidades
+				</pre>
+			</kbd>
+			<p>
+				El operador <em>+</em>, puede ser utilizado, adem&aacute;s de para sumar dos expresiones num&eacute;ricas,
+				para concatenar dos expresiones textuales:
+			</p>
+			<kbd>
+				<pre>
+	Variable nombre = "Julio"
+	Variable apellidos = "L&oacute;opez Blanco"
+	Variable nombreCompleto = nombre + " " + apellidos
+				</pre>
+			</kbd>
+			<p>
+				Los operadores relacionales, son utilizados para comparar 2 expresiones del mismo tipo
+				(num&eacute;ricas o textuales):
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre
+	Dialog Input "Dime tu nombre:"
+	Set nombre = Reply()
+	If nombre == "Jos&eacute;" Then Print "¡Hola, Pepe!"
+				</pre>
+			</kbd>
+			Otro ejemplo:<br>
+			<kbd>
+				<pre>
+	Set counter = 0
+	Do
+		Print String(counter)
+	Loop While counter < 5
+				</pre>
+			</kbd>
+			<p>			
+				Los operadores l&oacute;gicos, son utilizados para combinar el resultado de 2 comparaciones:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Marta"
+	Variable Number edad = 58
+	If edad > 50 && nombre == "Marta" Then Print "¡Hola, abuelita!"
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+
+		<div id="DfnFlowControl">
+			<hr>
+			<h3>Control del flujo de ejecuci&oacute;n</h3>
+			<p>
+				Se puede alterar el orden de ejecuci&oacute;n de las instrucciones del programa,
+				utilizando <a href="#KwCall">Call</a> y <a href="#KwJump">Jump</a>.
+			</p>
+			<p>
+				Adem&aacute;s, contamos con los <a href="#KwDo">bucles</a> y la
+				instrucción condicional <a href="#KwIf">If</a>.
+			</p>
+			<p>
+				Para utilizar <a href="#KwCall">Call</a> y <a href="#KwJump">Jump</a>,
+				necesitamos crear <a href="#DfnPlace">places</a>:
+			</p>
+			<kbd>
+				<pre>
+		Call GameOver
+		End
+	GameOver:
+		Print "***GAME OVER***"
+		Return
+				</pre>
+			</kbd>
+			<p>
+				Mediante <a href="#KwReturn">Return</a>, volveremos a ejecutar las instrucciones
+				que est&eacute;n despu&eacute;s del <a href="#KwCall">Call</a> que llam&oacute;
+				al <a href="#DfnPlace">place</a>.
+			</p>
+			<p>
+				Este sistema, es muy &uacute;til para crear <a href="#DfnSubroutine">subrutinas</a>:
+			</p>
+			<kbd>
+				<pre>
+		Print "Lunes" + Break()
+		Call Martes
+		Print "Mi&eacute;rcoles" + Break()
+		Jump Viernes
+		Print "Jueves" + Break()
+	Viernes:
+		Print "Viernes" + Break()
+		End
+	Martes:
+		Print "Martes" + Break()
+		Return
+				</pre>
+			</kbd>
+			<p>
+				La salida ser&iacute;a:
+			</p>
+			<kbd>
+				<pre>
+	Lunes
+	Martes
+	Mi&eacute;rcoles
+	Viernes
+				</pre>
+			</kbd>
+			<p>
+				Como se puede observar, el texto <em>Jueves</em> no ha sido impreso.
+			</p>
+			<p>
+				La instrucci&oacute;n <a href="#KwEnd">End</a> termina el programa.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+
+		<div id="DfnSubroutine">
+			<hr>
+			<h3>Subrutinas</h3>
+			<p>
+				Una subrutina, es un fragmento de c&oacute;digo, que comienza en
+				un <a href="#DfnPlace">place</a>, que se ejecuta mediante
+				la instrucci&oacute;n <a href="#KwCall">Call</a>.
+			</p>
+			<p>
+				Mediante la instrucci&oacute;n <a href="#KwReturn">Return</a>, volveremos
+				a ejecutar las instrucciones que siguen al <a href="#KwCall">Call</a> que llam&oacute;
+				a la subrutina.
+			</p>
+			<p>
+				Son muy &uacute;tiles, para organizar el c&oacute;digo del programa, de una
+				forma m&aacute;s l&oacute;gica y ordenada, as&iacute; como para partes del programa,
+				que sean frecuentemente utilizadas.
+			</p>
+			<p>
+				Es conveniente utilizar <a href="#DfnComment">comentarios</a>, que describan
+				lo que hacen, y qu&acute; variables necesitan o modifican, etc.:
+			</p>
+			<kbd>
+				<pre>
+	Variable String texto
+	Variable Number y
+	
+	Set texto = "¡Hola mundo!"
+	Set y = 100
+	Call TextoCentrado
+	
+	Set texto = "¡Hasta luego!"
+	Set y = 150
+	Call TextoCentrado
+	End
+	
+	' Imprime un texto centrado en la ventana, en rojo, con fondo blanco.
+	' La variable 'texto', contiene el texto a imprimir.
+	' La variable 'y', contiene la posición Y de la pantalla (la fila).
+	'
+	TextoCentrado:
+		Pen "red"
+		Paper "white"
+		Cursor To 0 y
+		Print Center texto
+		Return
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+
+		<div id="KeywordsFunctional">
+		<hr>
+			<h3>Palabras reservadas, seg&uacute;n su funci&oacute;n</h3>
+			<p>
+				Creación y manipulaci&oacute;n de variables:
+			</p>
+			<p class="indent">
+				<a href="#KwSet">Set</a><br>
+				<a href="#KwVariable">Variable</a><br>
+			</p>
+			<p>
+				Control del flujo de ejecuci&oacute;n:
+			</p>
+			<p class="indent">
+				<a href="#KwBreak">Break</a><br>
+				<a href="#KwCall">Call</a><br>
+				<a href="#KwDo">Do</a><br>
+				<a href="#KwElse">Else</a><br>
+				<a href="#KwEnd">End</a><br>
+				<a href="#KwIf">If</a><br>
+				<a href="#KwJump">Jump</a><br>
+				<a href="#KwLoop">Loop</a><br>
+				<a href="#KwReturn">Return</a><br>
+			</p>
+			<p>
+				Gr&aacute;ficos, im&aacute;genes e impresi&oacute;n de texto:
+			</p>
+			<p class="indent">
+				<a href="#KwClear">Clear</a><br>
+				<a href="#KwCursor">Cursor</a><br>
+				<a href="#KwCursorX">CursorX</a><br>
+				<a href="#KwCursorY">CursorY</a><br>
+				<a href="#KwDialog">Dialog</a><br>
+				<a href="#KwEllipse">Ellipse</a><br>
+				<a href="#KwFont">Font</a><br>
+				<a href="#KwImage">Image</a><br>
+				<a href="#KwLine">Line</a><br>
+				<a href="#KwPaper">Paper</a><br>
+				<a href="#KwPen">Pen</a><br>
+				<a href="#KwPoint">Point</a><br>
+				<a href="#KwPrint">Print</a><br>
+				<a href="#KwRectangle">Rectangle</a><br>
+				<a href="#KwScreen">Screen</a><br>
+				<a href="#KwScreenHeight">ScreenHeight</a><br>
+				<a href="#KwScreenWidth">ScreenWidth</a><br>
+				<a href="#KwTextHeight">TextHeight</a><br>
+				<a href="#KwTextWidth">TextWidth</a><br>
+			</p>
+			<p>
+				Entrada de datos por el teclado:
+			</p>
+			<p class="indent">
+				<a href="#KwDialog">Dialog</a><br>
+				<a href="#KwKey">Key</a><br>
+				<a href="#KwReply">Reply</a><br>
+			</p>
+			<p>
+				Sonidos:
+			</p>
+			<p class="indent">
+				<a href="#KwSound">Sound</a><br>
+			</p>
+			<p>
+				Control del rat&oacute;n:
+			</p>
+			<p class="indent">
+				<a href="#KwMouseClick">MouseClick</a><br>
+				<a href="#KwMouseX">MouseX</a><br>
+				<a href="#KwMouseY">MouseY</a><br>
+			</p>
+			<p>
+				Manipulaci&oacute;n de cadenas de texto:
+			</p>
+			<p class="indent">
+				<a href="#KwBreak">Break</a><br>
+				<a href="#KwFindstring">Findstring</a><br>
+				<a href="#KwLength">Length</a><br>
+				<a href="#KwLowercase">Lowercase</a><br>
+				<a href="#KwMiddle">Middle</a><br>
+				<a href="#KwNumber">Number</a><br>
+				<a href="#KwRepeatstring">Repeatstring</a><br>
+				<a href="#KwString">String</a><br>
+				<a href="#KwUppercase">Uppercase</a><br>
+			</p>
+			<p>
+				Otros:
+			</p>
+			<p class="indent">
+				<a href="#KwRandom">Random</a><br>
+				<a href="#KwWait">Wait</a><br>
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+
+		<div id="KeywordsAlphabetical">
+		<hr>
+			<h3>Palabras reservadas, por orden alfab&eacute;tico</h3>
+			<p>
+				Instrucciones:
+			</p>
+			<p class="indent">
+				<a href="#KwBreak">Break</a><br>
+				<a href="#KwCall">Call</a><br>
+				<a href="#KwClear">Clear</a><br>
+				<a href="#KwCursor">Cursor</a><br>
+				<a href="#KwDialog">Dialog</a><br>
+				<a href="#KwDo">Do</a><br>
+				<a href="#KwEllipse">Ellipse</a><br>
+				<a href="#KwElse">Else</a><br>
+				<a href="#KwEnd">End</a><br>
+				<a href="#KwFont">Font</a><br>
+				<a href="#KwIf">If</a><br>
+				<a href="#KwImage">Image</a><br>
+				<a href="#KwJump">Jump</a><br>
+				<a href="#KwLine">Line</a><br>
+				<a href="#KwLoop">Loop</a><br>
+				<a href="#KwPaper">Paper</a><br>
+				<a href="#KwPen">Pen</a><br>
+				<a href="#KwPoint">Point</a><br>
+				<a href="#KwPrint">Print</a><br>
+				<a href="#KwRandom">Random</a><br>
+				<a href="#KwRectangle">Rectangle</a><br>
+				<a href="#KwReturn">Return</a><br>
+				<a href="#KwScreen">Screen</a><br>
+				<a href="#KwSet">Set</a><br>
+				<a href="#KwSound">Sound</a><br>
+				<a href="#KwVariable">Variable</a><br>
+				<a href="#KwWait">Wait</a><br>
+			</p>
+			
+			<p>
+				Funciones:
+			</p>
+			<p class="indent">
+				<a href="#KwBreak">Break</a><br>
+				<a href="#KwCursorX">CursorX</a><br>
+				<a href="#KwCursorY">CursorY</a><br>
+				<a href="#KwKey">Key</a><br>
+				<a href="#KwFindstring">Findstring</a><br>
+				<a href="#KwLength">Length</a><br>
+				<a href="#KwLowercase">Lowercase</a><br>
+				<a href="#KwMiddle">Middle</a><br>
+				<a href="#KwMouseClick">MouseClick</a><br>
+				<a href="#KwMouseX">MouseX</a><br>
+				<a href="#KwMouseY">MouseY</a><br>
+				<a href="#KwNumber">Number</a><br>
+				<a href="#KwPaper">Paper</a><br>
+				<a href="#KwPen">Pen</a><br>
+				<a href="#KwRandom">Random</a><br>
+				<a href="#KwRepeatstring">Repeatstring</a><br>
+				<a href="#KwReply">Reply</a><br>
+				<a href="#KwScreenHeight">ScreenHeight</a><br>
+				<a href="#KwScreenWidth">ScreenWidth</a><br>
+				<a href="#KwString">String</a><br>
+				<a href="#KwTextHeight">TextHeight</a><br>
+				<a href="#KwTextWidth">TextWidth</a><br>
+				<a href="#KwUppercase">Uppercase</a><br>
+			</p>
+
+			<p>
+				Otras palabras reservadas auxiliares, utilizadas conjuntamente con las
+				anteriores, son:
+			</p>
+			<p class="indent">
+				Bold, Center, Error, Fill, Information, Input, Italic, Left,
+				OkCancel, Plain, Right, Solid, Then, To, Transparent, Until, Warning,
+				While, YesNo.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwBreak">
+			<hr>
+			<h3>Break <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Break() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Sale de un bucle <a href="#KwDo">Do</a> ... <a href="#KwLoop">Loop</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number contador = 0
+	Do
+		Dialog YesNo "Ahora el contador vale " + String(contador) + Break() + "¿Quieres salir del bucle ya?"
+		If Reply() == "yes" Then Break
+	Loop While contador < 10
+				</pre>
+			</kbd>
+			<p>
+				Como funci&oacute;n, devuelve un c&oacute;digo de nueva l&iacute;nea, &uacute;til en las
+				instrucciones  <a href="#KwPrint">Print</a> y  <a href="#KwDialog">Dialog</a>:
+			</p>
+			<kbd>
+				<pre>
+	Print "Esto es una l&iacute;nea." + Break() + "Y esto otra."
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwCall">
+			<hr>
+			<h3>Call place <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Continuar la ejecuci&oacute;n de las instrucciones del programa,
+				a partir del <a href="#DfnPlace">place</a> indicado.
+			</p>
+			<p>
+				Una vez se encuentre la instrucci&oacute;n <a href="#KwReturn">Return</a>,
+				la ejecuci&oacute;n continuar&aacute; en la instrucci&oacute;n que
+				sigue al <a href="#KwCall">Call</a> que llam&oacute; al <a href="#DfnPlace">place</a>.
+			</p>
+			<p>
+				Se suele utilizar en las <a href="#DfnSubroutine">subrutinas</a>:
+			<kbd>
+				<pre>
+		Image 10, 10, coheteUno
+		Call Pausa
+		Image 10, 10, coheteDos
+		Call Pausa
+		End
+Pausa:
+		Wait 600
+		Return
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwClear">
+			<hr>
+			<h3>Clear <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Borra la ventana, con el <a href="#KwPaper">color de fondo</a> actual, y sit&uacute;a
+				el <a href="#KwCursor">cursor</a> en
+				la esquina superior izquierda de la misma (x = 0, y = 0):
+			</p>
+			<kbd>
+				<pre>
+	Screen 300, 300
+	Paper "blue"
+	Clear
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwCursor">
+			<hr>
+			<h3>Cursor To x, y <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Mueve el cursor a la posici&oacute;n indicada.
+			</p>
+			<p>
+				Tanto <em>x</em>, como <em>y</em>, son <a href="#DfnNumber">expresiones num&eacute;ricas</a>:
+			</p>
+			<kbd>
+				<pre>
+	Cursor To 10, 10
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwCursorX">
+			<hr>
+			<h3>CursorX() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la posici&oacute;n X actual del cursor:
+			</p>
+			<kbd>
+				<pre>
+	Cursor To CursorX(), 10
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwCursorY">
+			<hr>
+			<h3>CursorY() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la posici&oacute;n Y actual del cursor:
+			</p>
+			<kbd>
+				<pre>
+	Cursor To 0, CursorY()
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwDialog">
+			<hr>
+			<h3>Dialog tipo texto <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Visualiza un cuadro de di&aacute;logo del tipo especificado, e imprime el mensaje de texto indicado:
+			</p>
+			<table>
+				<caption>Tipos de cuadros de di&aacute;logo</caption>
+				<tr>
+					<th>Tipo</th>
+					<th>Funcionalidad</th>
+					<th>Devuelve el dato en Reply()</th>
+				</tr>
+				<tr>
+					<td>Input</td>
+					<td>Solicita un dato al usuario</td>
+					<td>S&iacute;</td>
+				</tr>
+				<tr>
+					<td>YesNo</td>
+					<td>Hace una pregunta al usuario, y devuelve <em>"yes"</em> o <em>"no"</td>
+					<td>S&iacute;</td>
+				</tr>
+				<tr>
+					<td>OkCancel</td>
+					<td>Hace una pregunta al usuario, y devuelve <em>"ok"</em> o <em>"cancel"</td>
+					<td>S&iacute;</td>
+				</tr>
+				<tr>
+					<td>Warning</td>
+					<td>Informa de una advertencia</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Error</td>
+					<td>Informa de un error</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Information</td>
+					<td>Muestra una informaci&oacute;n</td>
+					<td>No</td>
+				</tr>
+			</table>
+			<p>
+				Los datos introducidos, se pueden recuperar mediante
+				la funci&oacute;n <a href="#KwReply">Reply()</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre
+	Variable Number edad
+	Variable Number helado = 0
+	Dialog Input "Dime tu nombre:"
+	Set nombre = Reply()
+	Dialog Input "Dime tu edad, " + nombre + ":"
+	Set edad = Number(Reply())
+	Dialog YesNo "¿Te gustan los helados?"
+	If Reply() == "yes" Then Set helado = 1
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwDo">
+			<hr>
+			<h3>Do ... Loop While condici&oacute;n <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Do ... Loop Until condici&oacute;n</h3>
+			<h3>Do While condici&oacute;n ... Loop</h3>
+			<h3>Do Until condici&oacute;n ... Loop</h3>
+			<p>
+				Ejecuta una serie de instrucciones dentro de un bucle, mientras
+				se cumpla la condici&oacute;n (<em>While</em>),
+				o hasta que se cumpla (<em>Until</em>).
+			</p>
+			<p>
+				Las 2 primeras formas, comienzan a ejecutar las instrucciones contenidas
+				dentro del bucle, y luego eval&uacute;n la condici&oacute;n
+				antes de proseguir, por lo que siempre ejecutan dichas instrucciones,
+				al menos una vez.
+			</p>
+			<p>
+				Las otras 2 formas, eval&uacute;n la condici&oacute;n al
+				principio del bucle, por lo que puede que no ejecuten nunca
+				las instrucciones, si dicha condici&oacute;n no se cumple.
+			</p>
+			<p>
+				Veamos un ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	Do
+		Dialog YesNo "¿Deseas continuar dentro del bucle?"
+	Loop While Reply() == "yes"
+				</pre>
+			</kbd>
+			<p>
+				Otro ejemplo m&aacute;s:
+			</p>
+			<kbd>
+				<pre>
+	' Imprimir los n&uacute;meros del 1 al 10
+	'
+	Variable Number contador = 1
+	Do
+		Print String(contador) + Break()
+		Set contador = contador + 1
+	Loop Until contador == 10
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwEllipse">
+			<hr>
+			<h3>Ellipse {modo} x, y, ancho, alto <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Dibuja una elipse (o un c&iacute;rculo, si <em>ancho</em> y <em>alto</em> son iguales).
+			</p>
+			<p>
+				Los valores <em>x</em>, <em>y</em>, <em>ancho</em> y <em>alto</em>,
+				son <a href="#DfnNumber">expresiones num&eacute;ricas</a>,
+				que indican la posici&oacute;n m&aacute;s a la izquierda,
+				la posici&oacute;n m&aacute;s arriba,
+				el ancho en pixels,
+				y el alto en pixels, respectivamente.
+			</p>
+			<p>
+				El modo de operaci&oacute;n es opcional.
+			</p>
+			<table>
+				<caption>Modos de operaci&oacute;n</caption>
+				<tr>
+					<th>Modo</th>
+					<th>Efecto</th>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>Dibuja s&oacute;lo el contorno, con el <a href="#KwPen">color de pluma</a></td>
+				</tr>
+				<tr>
+					<td>Fill</td>
+					<td>Dibuja el contorno, con el <a href="#KwPen">color de pluma</a>,
+					    y rellena el interior, con el <a href="#KwPen">color de papel</a></td>
+				</tr>
+				<tr>
+					<td>Solid</td>
+					<td>Dibuja una figura s&oacute;lida, con el <a href="#KwPen">color de pluma</a></td>
+				</tr>
+			</table>
+			<p>
+				Veamos un ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	' Dibuja un c&iacute;rculo de 100 pixels de di&aacute;metro,
+	' con el contorno de color negro, y el interior de color rojo
+	Pen "black"
+	Paper "red"
+	Ellipse fill 25, 50, 100, 100
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwElse">
+			<hr>
+			<h3>Else {instrucci&oacute;n} <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Else If condici&oacute;n Then {instrucci&oacute;n} <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Ejecuta las instrucciones siguientes,
+				si la condici&oacute;n evaluada
+				en el anterior <a href="#KwIf">If</a> era falsa.
+			</p>
+			<p>
+				En caso contrario, no las ejecuta.
+			</p>
+			<p>
+				Se utiliza <a href="#KwElse">Else</a> sin <em>argumentos</em>,
+				cuando se trata de un bloque <a href="#KwIf">If</a>:
+			</p>
+			<kbd>
+				<pre>
+	If edad >= 18 Then
+		Print "Mayor de edad"
+		Set mayorDeEdad = 1
+	Else
+		Print "Menor de edad"
+		Set mayorDeEdad = 0
+	End If
+				</pre>
+			</kbd>
+			<p>
+				Los <a href="#KwElse">Else</a> de bloque, tambi&eacute;n admiten la forma <em>Else If</em>:
+			</p>
+				<kbd>
+				<pre>
+	If numero == 0 Then
+		Print "0"
+	Else If numero == 1 Then
+		Print "1"
+	Else If numero == 2 Then
+		Print "2"
+	Else
+		Print "?"
+	End If
+				</pre>
+			</kbd>
+			<p>
+				Se utiliza un <a href="#KwElse">Else</a> simple, cuando se
+				trata de un <a href="#KwIf">If</a> simple:
+			<kbd>
+				<pre>
+	If edad >= 18 Then Print "Mayor de edad"
+	Else Print "Menor de edad"
+				</pre>
+			</kbd>
+			<p>
+				Los <a href="#KwElse">Else</a> simples, tambi&eacute;n admiten la forma <em>Else If</em> simple:
+			</p>
+				<kbd>
+				<pre>
+	If numero == 0 Then	Print "0"
+	Else If numero == 1 Then Print "1"
+	Else If numero == 2 Then Print "2"
+	Else Print "?"
+				</pre>
+			</kbd>
+			<p>
+				<strong>Importante</strong>:
+				No est&aacute; permitido mezclar distintos tipos de <a href="#KwIf">If</a> y <a href="#KwElse">Else</a>
+				(s&oacute;lo simples, o s&oacute;lo de tipo bloque).
+			</p>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwEnd">
+			<hr>
+			<h3>End {If} <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				La instrucci&oacute;n <a href="#KwEnd">End</a> finaliza el programa:
+			</p>
+			<kbd>
+				<pre>
+	Dialog YesNo "¿Deseas jugar otra partida?"
+	If Reply() == "no" Then End
+	Jump partidaNueva
+				</pre>
+			</kbd>
+			<p>
+				También se utiliza la forma <a href="#KwEnd">End If</a>, para finalizar un <a href="#KwIf">If</a>
+				de tipo bloque:
+			</p>
+						<kbd>
+				<pre>
+	If Reply() == "no" Then
+		Clear
+		Print "¡Hasta luego!"
+	End If
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwFindstring">
+			<hr>
+			<h3>Findstring( texto, texto-a-buscar{, posici&oacute;n} ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la posici&oacute;n de la primera aparici&oacute;n de <em>texto-a-buscar</em> en <em>texto</em>,
+				a partir de la <em>posici&oacute;n</em> indicada, o -1 si no es encontrado.
+			</p>
+			<p>
+				Tanto <em>texto-a-buscar</em>, como <em>texto</em> son <a href="#DfnString">valores textuales</a>.
+			</p>
+			<p>
+				Si no se indica el argumento <em>posici&oacute;n</em>, busca a partir de la primera posici&oacute;n. La primera posici&oacute;n es 0.
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Juan Miguel Llamas"
+	print string(findstring(nombre, "Miguel"))      ' 5
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwFont">
+			<hr>
+			<h3>Font {nombre} {tamaño} {atributos} <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Cambia la fuente actual, su tamaño y los atributos.
+			</p>
+			<p>
+				El valor <em>nombre</em> es una <a href="#DfnString">expresi&oacute;n textual</a>, que indica
+				el nombre de la fuente, y <em>tamaño</em> es una <a href="#DfnNumber">expresi&oacute;n num&eacute;rica</a>,
+				que indica su tamaño en puntos.
+			</p>
+			<p>
+				Los atributos permiten cambiar las caracter&iacute;sticas que indica la tabla.
+			</p>
+			<table>
+				<caption>Atributos</caption>
+				<tr>
+					<th>Atributo</th>
+					<th>Efecto</th>
+				</tr>
+				<tr>
+					<td>Plain</td>
+					<td>Texto normal sin atributos</td>
+				</tr>
+				<tr>
+					<td>Bold</td>
+					<td>Texto en negrita</td>
+				</tr>
+				<tr>
+					<td>Italic</td>
+					<td>Texto en cursiva (it&aacute;lica)</td>
+				</tr>
+				<tr>
+					<td>Transparent</td>
+					<td>Fondo transparente (no rellena con el <a href="#KwPen">color de papel</a></td>
+				</tr>
+			</table>
+			<p>
+				S&oacute;lo se modificar&aacute;n las caracter&iacute;sticas que se indiquen, pero
+				en el caso de indicar alg&uactue;n atributo, todos los dem&aacute;s se desactivar&aacuten;n:
+			</p>
+			<kbd>
+				<pre>
+	Font "arial"
+	Font 32, Bold
+	Font "verdana", Bold, Italic
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwIf">
+			<hr>
+			<h3>If condici&oacute;n Then {instrucci&oacute;n} <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Ejecuta las instrucciones siguientes, si la <em>condici&oacute;n</em> es cierta.
+			</p>
+			<p>
+				Puede ser utilizado conjuntamente con <a href="#KwElse">Else</a>.
+			</p>
+			<p>
+				Hay dos tipos de <a href="#KwIf">If</a>.
+			</p>
+			<p>
+				De tipo bloque, finalizados con <a href="#KwEnd">End If</a>:
+			</p>
+			<kbd>
+				<pre>
+	If edad >= 18 Then
+		Print "Mayor de edad"
+		Set mayorDeEdad = 1
+	Else
+		Print "Menor de edad"
+		Set mayorDeEdad = 0
+	End If
+				</pre>
+			</kbd>
+			<p>
+				Y de tipo simple:
+			<kbd>
+				<pre>
+	If edad >= 18 Then Print "Mayor de edad"
+	Else Print "Menor de edad"
+				</pre>
+			</kbd>
+			<p>
+				<strong>Importante</strong>:
+				No est&aacute; permitido mezclar distintos tipos de <a href="#KwIf">If</a> y <a href="#KwElse">Else</a>
+				(s&oacute;lo simples, o s&oacute;lo de tipo bloque).
+			</p>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwImage">
+			<hr>
+			<h3>Image x, y, imagen <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Dibuja la imagen en la posici&oacute;n indicada por <em>x</em> e <em>y</em>,
+				ambas, <a href="#DfnNumber">expresiones de tipo num&eacute;rico</a>.
+			</p>
+			<p>
+				La <em>imagen</em> se indica mediante una <a href="#DfnImage">expresi&oacute;n de imagen</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Image icono = "estrella.png"
+	Image 10, 15, icono
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwJump">
+			<hr>
+			<h3>Jump place <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Cambia el <a href="#DfnFlowControl">flujo de ejecuci&oacute;n</a> del
+				programa, ejecutando las instrucciones a partir del <a href="#DfnPlace">place</a>
+				indicado:
+			</p>
+			<kbd>
+				<pre>
+		' Imprimir: Hola Pepe
+		Print "Hola "
+		Jump imprimeC
+		print "Juan"
+	imprimeC:
+		print "Pepe"
+				</pre>
+			</kbd>
+			<p>
+				La salida en pantalla ser&iacute;a:
+			</p>
+			<kbd>
+				<pre>
+	Hola Pepe
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwKey">
+			<hr>
+			<h3>Key() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve el nombre de la tecla o caracter pulsado por el usuario,
+				como una <a href="#DfnString">cadena de texto</a>.
+			</p>
+			<p>
+				En el caso de que el usuario no haya pulsado ninguna tecla,
+				devolver&aacute; una cadena vac&iacute;a "":
+			<kbd>
+				<pre>
+		Variable String tecla
+	pulsaTecla:
+		Set tecla = Key()
+		If tecla == "up" Then Call mueveArriba
+		If tecla == "down" Then Call mueveAbajo
+		Jump pulsaTecla
+				</pre>
+			</kbd>
+			<p>
+				Veamos otro ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	' Subrutina que espera a que se pulse
+	' cualquier tecla.
+	' El valor de la tecla se pierde.
+	'
+	esperaTecla:
+		Do Until Key() != ""
+			' Nada
+		Loop
+		Return
+				</pre>
+			</kbd>
+			<p>
+				El caracter o tecla es borrado del buffer de teclado, en cuanto es le&iacute;do.
+			</p>
+			<p>
+				Los nombres de las teclas (aparte de los caracteres comunes como <em>a</em>, <em>B</em>, <em>1</em>,
+				<em>2</em>, <em>3</em>, etc.),son:
+				<em>up</em>, <em>down</em>, <em>left</em>, <em>right</em>, <em>enter</em>, <em>escape</em>,
+				<em>home</em>, <em>end</em>, <em>page_up</em>, <em>page_down</em>...
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwLength">
+			<hr>
+			<h3>Length( array | texto )<em> -- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve el nº de elementos de un <a href="#DfnArray">array</a>, o la longitud en caracteres de una <a href="#DfnString">expresi&oacute;n textual</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Juanjo"
+	Variable Number longitud = Length(nombre)    ' 6 caracteres
+	
+	Variable Number precios[5]
+	Variable Number elementos = Length(precios)  ' 5 elementos
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwLine">
+			<hr>
+			<h3>Line x, y, x2, y2 <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Dibuja una l&iacute;nea con el <a href="#KwPen">color de pluma</a>, desde la posici&oacute;n
+				indicada por <em>x</em> e <em>y</em>,
+				hasta la posici&oacute;n indicada por <em>x2</em> e <em>y2</em>.
+			</p>
+			<p>
+				Dichas posiciones, son <a href="#DfnNumber">expresiones num&eacute;ricas</a>:
+			</p>
+			<kbd>
+				<pre>
+	Pen "red"
+	Line 10, 15, 300, 250
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwLoop">
+			<hr>
+			<h3>Loop <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Instrucci&oacute;n de cierre de un bucle <a href="#KwDo">Do</a>:
+			</p>
+					<kbd>
+				<pre>
+	' Subrutina que espera a que se pulse cualquier tecla.
+	' Devuelve el valor en la variable textual 'tecla'.
+	'
+	esperaTecla:
+		Do
+			Set tecla = Key()
+		Loop While tecla == ""
+		Return
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwLowercase">
+			<hr>
+			<h3>Lowercase( texto )<em> -- Funci&oacute;n</em></h3>
+			<p>
+				Convierte una <a href="#DfnString">expresi&oacute;n textual</a> a min&uacute;sculas:
+			</p>
+			<kbd>
+				<pre>
+	Print Lowercase("SOY Pequeñito")  ' soy pequeñito
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwMiddle">
+			<hr>
+			<h3>Middle( texto, &iacute;ndice, longitud ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve un <a href="#DfnString">valor textual</a>, extra&iacute;do de <em>texto</em>,
+				a partir de la posici&oacute;n <em>&iacute;ndice</em>, de la <em>longitud</em> en caracteres indicada.
+			</p>
+			<p>
+				El primer &iacute;ndice es el 0.
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Juan Miguel"
+	Variable String segundoNombre = Middle(nombre, 5, 6)  ' Extraemos "Miguel"
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwMouseClick">
+			<hr>
+			<h3>MouseClick() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve el bot&oacute;n del rato&oacute;n que ha sido pulsado,
+				como un <a href="#DfnString">valor textual</a>,
+				seg&uacute;n indica la tabla.
+			</p>
+			<table>
+				<caption>Valores devueltos por MouseClick()</caption>
+				<tr>
+					<th>Valor</th>
+					<th>Significado</th>
+				</tr>
+				<tr>
+					<td>""</td>
+					<td>Ning&uacute;n bot&oacute;n pulsado</td>
+				</tr>
+				<tr>
+					<td>"left"</td>
+					<td>Bot&oacuten izquierdo</td>
+				</tr>
+				<tr>
+					<td>"middle"</td>
+					<td>Bot&oacuten central</td>
+				</tr>
+				<tr>
+					<td>"right"</td>
+					<td>Bot&oacuten derecho</td>
+				</tr>
+			</table>
+			<p>
+				Veamos un ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	Variable String boton = MouseClick()
+	If boton == "left" Then Print "Izquierdo"
+	Else If boton == "right" Then Print "Derecho"
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwMouseX">
+			<hr>
+			<h3>MouseX() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la posici&oacute;n <em>x</em> del puntero del rat&oacute;n,
+				como un <a href="DfnNumber">valor num&eacute;rico</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number posX = MouseX()
+				</pre>
+			</kbd>
+			<p>
+				Devuelve -1, si el puntero del rat&oacute;n est&aacute; fuera de
+				la ventana.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwMouseY">
+			<hr>
+			<h3>MouseY() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la posici&oacute;n <em>y</em> del puntero del rat&oacute;n,
+				como un <a href="DfnNumber">valor num&eacute;rico</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number posY = MouseY()
+				</pre>
+			</kbd>
+			<p>
+				Devuelve -1, si el puntero del rat&oacute;n est&aacute; fuera de
+				la ventana.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwNumber">
+			<hr>
+			<h3>Number( texto ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Convierte una <a href="#DfnString">expresi&oacute;n textual</a>, en su equivalente num&eacute;rico:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number valor = 3 + Number("45")
+				</pre>
+			</kbd>
+			<p>
+				Si la <a href="DfnString">expresi&oacute;n textual</a> no tiene equivalente num&eacute;rico,
+				devuelve el valor 0.
+			</p>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwPaper">
+			<hr>
+			<h3>Paper color <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Paper() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Como instrucci&oacute;n, cambia el <a href="DfnColor>">color</a> de papel:
+			</p>
+			<kbd>
+				<pre>
+	Paper "red"
+	Clear
+				</pre>
+			</kbd>
+			<p>
+				Como funci&oacute;n, devuelve el <a href="DfnColor>">color</a> de papel actual:
+			</p>
+			<kbd>
+				<pre>
+	Paper "Blue"
+	Print "Texto escrito sobre fondo de color: " + Paper()
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwPen">
+			<hr>
+			<h3>Pen color <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Pen() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Como instrucci&oacute;n, cambia el <a href="DfnColor>">color</a> de pluma:
+			</p>
+			<kbd>
+				<pre>
+	Pen "Blue"
+	Paper "Yellow"
+	Print "Texto escrito en color azul, sobre fondo amarillo"
+				</pre>
+			</kbd>
+			<p>
+				Como funci&oacute;n, devuelve el <a href="DfnColor>">color</a> de pluma actual:
+			</p>
+			<kbd>
+				<pre>
+	Pen "Blue"
+	Print "Texto escrito en color: " + Pen()
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwPoint">
+			<hr>
+			<h3>Po‌int x, y <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Dibuja un pixel con el <a href="#DfnColor>">color</a> de pluma, en la posici&oacute;n indicada
+				por <em>x</em> e <em>y</em>, ambos indicados como <a href="#DfnNumber">expresiones
+				num&eacute;ricas</a>:
+			</p>
+			<kbd>
+				<pre>
+	Pen "green"
+	Point 10, 40
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwPrint">
+			<hr>
+			<h3>Print {modo} texto <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Imprime el texto indicado en la pantalla.
+			</p>
+			<p>
+				El modo, tiene el efecto indicado en la tabla.
+			</p>
+			<table>
+				<caption>Modos</caption>
+				<tr>
+					<th>Modo</th>
+					<th>Efecto</th>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>Imprime en la posici&oacute;n actual del <a href="#KwCursor">cursor</a></td>
+				</tr>
+				<tr>
+					<td>Left</td>
+					<td>Texto justificado a la izquierda, en la posici&oacute;n <em>y</em> actual</td>
+				</tr>
+				<tr>
+					<td>Center</td>
+					<td>Texto centrado, en la posici&oacute;n <em>y</em> actual</td>
+				</tr>
+				<tr>
+					<td>Right</td>
+					<td>Texto justificado a la derecha, en la posici&oacute;n <em>y</em> actual</td>
+				</tr>
+			</table>
+			<p>
+				Veamos un ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Pepe"
+	Variable Number edad = 15
+	Print "El alumno " + nombre + ", tiene " + String(edad) + " años de edad." + Break()
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwRandom">
+			<hr>
+			<h3>Random m&aacute;ximo <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Random() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				La primera forma, indica el nº m&aacute;ximo que generar&aacute; la segunda.
+			</p>
+			<p>
+				La segunda forma, es una funci&oacute;n, que devuelve un nº aleatorio
+				entre 0 y <em>m&aacute;ximo</em>, ambos inclusive.
+			</p>
+			<p>
+				El valor <em>m&aacute;ximo</em>, es una <a href="#DfnNumber">expresi&oacute;n
+				num&eacute;rica</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number dato
+	' Random generar&aacute; n&uacute;meros del 0 al 5,
+	' ambos inclusive:
+	'
+	Random 5
+	' La variable 'dado' tendr&aacute; un valor aleatorio
+	' entre 1 y 6, ambos inclusive:
+	'
+	Set dado = Random() + 1
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwRectangle">
+			<hr>
+			<h3>Rectangle {modo} x, y, ancho, alto <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Dibuja un rect&aacute;ngulo (o un cuadrado, si <em>ancho</em> y <em>alto</em> son iguales).
+			</p>
+			<p>
+				Los valores <em>x</em>, <em>y</em>, <em>ancho</em> y <em>alto</em>,
+				son <a href="#DfnNumber">expresiones num&eacute;ricas</a>,
+				que indican la posici&oacute;n m&aacute;s a la izquierda,
+				la posici&oacute;n m&aacute;s arriba,
+				el ancho en pixels,
+				y el alto en pixels, respectivamente.
+			</p>
+			<p>
+				El modo de operaci&oacute;n es opcional.
+			</p>
+			<table>
+				<caption>Modos de operaci&oacute;n</caption>
+				<tr>
+					<th>Modo</th>
+					<th>Efecto</th>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>Dibuja s&oacute;lo el contorno, con el <a href="#KwPen">color de pluma</a></td>
+				</tr>
+				<tr>
+					<td>Fill</td>
+					<td>Dibuja el contorno, con el <a href="#KwPen">color de pluma</a>,
+					    y rellena el interior, con el <a href="#KwPen">color de papel</a></td>
+				</tr>
+				<tr>
+					<td>Solid</td>
+					<td>Dibuja una figura s&oacute;lida, con el <a href="#KwPen">color de pluma</a></td>
+				</tr>
+			</table>
+			<p>
+				Veamos un ejemplo:
+			</p>
+			<kbd>
+				<pre>
+	' Dibuja un cuadrado de 100 pixels de lado,
+	' con el contorno de color negro, y el interior
+	' de color rojo:
+	'
+	Pen "black"
+	Paper "red"
+	Rectangle fill 25, 50, 100, 100
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwRepeatstring">
+			<hr>
+			<h3>Repeatstring( texto, veces ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve un <a href="#DfnString">valor textual</a>, resultado de repetir la cadena <em>texto</em>
+				el n&uacute;mero de <em>veces</em> indicado.
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre = "Abc"
+	Print Repeatstring(nombre + "!", 3)   ' Abc!Abc!Abc!
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwReply">
+			<hr>
+			<h3>Reply() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve el valor introducido por el usuario, mediante la
+				instrucci&oacute;n <a href="#KwDialog">Dialog</a>,
+				como un <a href="#DfnString">valor textual</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre
+	Dialog Input "Introduce tu nombre:"
+	Set nombre = Reply()
+				</pre>
+			</kbd>
+			<p>
+				Dicho valor puede ser convertido a un <a href="#DfnNumber">valor num&eacute;rico</a>, mediante la
+				funci&oacute;n <a href="#KwNumber">Number</a>.
+			</p>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwReturn">
+			<hr>
+			<h3>Return <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Cambia el <a href="#DfnFlowControl">flujo de ejecuci&oacute;n</a> del programa
+				a la siguiente instrucci&oacute;n que sigue al <a href="#KwCall">Call</a>,
+				que llam&oacute; al <a href="#DfnPlace">place</a>:
+			</p>
+			<kbd>
+				<pre>
+		Call borraPantalla
+		Print "Game Over"
+		End
+	borraPantalla:
+		Clear
+		Return
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwScreen">
+			<hr>
+			<h3>Screen ancho, alto <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Reinicia la ventana, cambiando sus dimensiones a las indicadas, borrando su contenido pintando el fondo
+				de la misma con el <a href="#KwPaper">color de papel</a>,
+				cambiando los valores de la <a href="#KwFont">fuente</a> a sus valores por defecto,
+				y situando el <a href="#KwCursor">cursor</a> en la esquina superior izquierda
+				de la misma (posici&oacute;n <em>x</em> = 0 e <em>y</em> = 0):
+			</p>
+			<kbd>
+				<pre>
+	Screen 800, 600
+	Paper "green"
+	Clear
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwScreenHeight">
+			<hr>
+			<h3>ScreenHeight() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve el alto de la ventana, en pixels:
+			</p>
+			<kbd>
+				<pre>
+	Screen 800, 600
+	Variable Number alto = ScreenHeight()
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwScreenWidth">
+			<hr>
+			<h3>ScreenWidth() <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve el ancho de la ventana, en pixels:
+			</p>
+			<kbd>
+				<pre>
+	Screen 800, 600
+	Variable Number ancho = ScreenWidth()
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwSet">
+			<hr>
+			<h3>Set variable = valor <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Set array[&iacute;ndice] = valor <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Asigna un valor a una <a href="#DfnVariable">variable</a> o elemento de un <a href="#DfnArray">array</a>.
+			</p>
+			<p>
+				Los valores admitidos, dependen del tipo de variable.
+			</p>
+			<p>
+				Para variables de tipo Number, el valor ser&aacute; una <a href="#DfnNumber">expresi&oacute;n
+				num&eacute;rica</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number precio 25
+	Variable Number total
+	Set total = precio * 10
+	Variable String alumnos[15]
+	Set alumnos[3] = "Pepe"
+				</pre>
+			</kbd>
+			<p>
+				Para variables de tipo String, el valor ser&aacute; una <a href="#DfnString">expresi&oacute;n
+				textual</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable String nombre
+	Set nombre = "Miguel"
+				</pre>
+			</kbd>			
+			<p>
+				Para variables de tipo <a href="#DfnImage">Image</a>, el valor puede ser tanto
+				una <a href="#DfnString">expresi&oacute;n
+				textual</a> que referencie el nombre del fichero de imagen, como el nombre de otra
+				variable del mismo tipo:
+			</p>
+			<kbd>
+				<pre>
+	Variable Image iconoFlor = "flor.png"
+	Variable Image icono
+	Set icono = iconoFlor
+	Image 100 100 icono
+				</pre>
+			</kbd>
+			<p>
+				Para variables de tipo <a href="#DfnSound">Sound</a>, el valor puede ser tanto
+				una <a href="#DfnString">expresi&oacute;n
+				textual</a> que referencie el nombre del fichero de sonido, como el nombre de otra
+				variable del mismo tipo:
+			</p>
+			<kbd>
+				<pre>
+	Variable Sound click
+	Set click = "sonido_click.wav"
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwString">
+			<hr>
+			<h3>String( n&uacute;mero ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Convierte una <a href="#DfnNumber">expresi&oacute;n num&eacute;rica</a>, en su equivalente <a href="#DfnString">textual</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number valor = 5
+	Variable String texto = String(valor)
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwSound">
+			<hr>
+			<h3>Sound sonido <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Emite el sonido indicado por la <a href="#DfnSound">expresi&oacute;n de sonido</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Sound sonidoError = "fail.wav"
+	Sound sonidoError
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwTextHeight">
+			<hr>
+			<h3>TextHeight( texto ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la altura de una <a href="#DfnString">expresi&oacute;n textual</a>, en pixels:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number altoEnPixels = TextHeight("Texto de prueba")
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwTextWidth">
+			<hr>
+			<h3>TextWidth( texto ) <em>-- Funci&oacute;n</em></h3>
+			<p>
+				Devuelve la anchura de una <a href="#DfnString">expresi&oacute;n textual</a>, en pixels:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number anchoEnPixels = TextWidth("Texto de prueba")
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwUppercase">
+			<hr>
+			<h3>Uppercase( texto )<em> -- Funci&oacute;n</em></h3>
+			<p>
+				Convierte una <a href="#DfnString">expresi&oacute;n textual</a> a may&uacute;sculas:
+			</p>
+			<kbd>
+				<pre>
+	Print Uppercase("Soy Pequeñito")    ' SOY PEQUEÑITO
+				</pre>
+			</kbd>
+		</div>
+		
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwVariable">
+			<hr>
+			<h3>Variable tipo nombre {= valor} <em>-- Instrucci&oacute;n</em></h3>
+			<h3>Variable tipo nombre[tamaño] <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Crea una <a href="#DfnVariable">variable</a> o <a href="#DfnArray">array</a> del <em>tipo</em> especificado,
+				y (opcionalmente) le asigna un valor del mismo tipo (s&oacute;lo para variables).
+			</p>
+			<p>
+				El <em>tipo</em>, puede ser uno de los indicados en la tabla.
+			</p>
+			<table>
+				<caption>Tipos</caption>
+				<tr>
+					<th>Tipo</th>
+					<th>Significado</th>
+				</tr>
+				<tr>
+					<td>Number</td>
+					<td>Para variables de tipo num&eacute;rico</td>
+				</tr>
+				<tr>
+					<td>String</td>
+					<td>Para variables de tipo textual</td>
+				</tr>
+				<tr>
+					<td>Image</td>
+					<td>Para variables de tipo imagen</td>
+				</tr>
+				<tr>
+					<td>Sound</td>
+					<td>Para variables de tipo sonido</td>
+				</tr>
+			</table>
+			<p>
+				El valor se indica mediante una expresi&oacute;n del tipo correspondiente:
+				<a href="#DfnNumber">num&eacute;rica</a>,
+				<a href="#DfnString">textual</a>, <a href="#DfnImage">de imagen</a>,
+				o <a href="#DfnSound">de sonido</a>:
+			</p>
+			<kbd>
+				<pre>
+	Variable Number edad = 10
+	Variable Number precio
+	Variable String nombreCompleto = nombre + apellidos
+	Variable Sound sonidoFin = "game_over.wav"
+	Variable Image fondoVentana = "selva.png"
+	Variable String alumnos[50]
+				</pre>
+			</kbd>
+		</div>
+
+		<!- ||||||||||||||||||||||||||||||||||||||||| >
+		<div id="KwWait">
+			<hr>
+			<h3>Wait milisegundos <em>-- Instrucci&oacute;n</em></h3>
+			<p>
+				Realiza una pausa, de la duraci&oacute;n indicada
+				mediante una <a href="#DfnNumber">expresi&oacute;n num&eacute;rica</a>:
+			</p>
+			<kbd>
+				<pre>
+	' Parar 1 segundo la ejecuci&oacute;n del programa:
+	'
+	Wait 1000
+				</pre>
+			</kbd>
+		</div>
+
+
+	</body>
+
+</html>

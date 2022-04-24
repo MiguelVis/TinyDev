@@ -1,0 +1,125 @@
+/* +------------------------+
+   | CSS STYLES             |
+   | ---------------------- |
+   | MIGUEL I. GARCIA LOPEZ |
+   +------------------------+
+*/
+
+/* DEFAULTS
+*/
+* {
+	font-family: Consolas, "Lucida Console", "Courier New", monospace;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	color: #000000;
+	}
+
+/* BODY
+*/
+body {
+	//height: 100%;
+	//width: 100%;
+	margin-left: 5em;
+	margin-right: 5em;
+	//padding: 0px; 
+	background-color: #ffffcc;
+	}
+
+h1, h2, h3 {
+	color: brown;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px gray;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+	
+/* ENLACES
+*/
+a {
+	color: blue;
+}
+
+/* PARAGRAPH: INDENT
+*/
+
+p {
+	margin-left: 0em; 
+}
+
+p.indent {
+	margin-left: 2em; 
+}
+	
+/* PARAGRAPH: TITLE
+*/
+p.title {
+	font-size: xx-large;
+	font-weight: bold;
+	color: #800000;
+	}
+	
+/* PARAGRAPH: SUBTITLE
+*/
+p.subtitle {
+	font-size: large;
+	font-weight: bold;
+	color: #800000;
+	}
+
+/* PARAGRAPH: PARAGRAPH
+*/
+p.para {
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	}
+	
+/* Img: Bordes.
+*/
+
+img.borde {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+img.screenshot {
+	display: block;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	box-shadow: 4px 4px 8px grey;
+}
+
+img.screenshot.right {
+	float: right;
+}
+
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left: 32px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+/* Tablas: Celdas centradas
+*/
+
+td.centered {
+	text-align: center;
+	}
