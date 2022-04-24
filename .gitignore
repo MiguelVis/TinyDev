@@ -1,15 +1,6 @@
 /.settings
 /bin
-/help
-/images
 /lab
 /releases-src
-/src
-/web
 /web_old
-.classpath
-.project
-tinydev.ico
-tinydev.jar
-TinyDev.properties
 Thumbs.db
